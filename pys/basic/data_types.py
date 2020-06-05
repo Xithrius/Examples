@@ -1,8 +1,20 @@
+# Single line comment
+
+'''
+Multi-line
+Comment
+'''
+
+"""
+Another
+Multi-line comment
+"""
+
 # Integers:
 integer = 6
-binaryInt = 0b1001  # == 9
-octalInt = 0o43  # == 35
-hexInt = 0xff0000  # == red
+binaryInt = 0b1001  # == 9 (byte)
+octalInt = 0o43  # == 35 (decminal)
+hexInt = 0xff0000  # == red (hexadecimal)
 
 # Floats:
 decimal = 4.2
@@ -37,7 +49,4 @@ d['a']  # == 4
 d[True]  # == 3
 d[0]  # == 's'
 
-try:
-    d['b']
-except KeyError:
-    pass
+d['b']  # KeyError (key cannot be found)
