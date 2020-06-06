@@ -1,4 +1,4 @@
-class Something:
+class Test:
 
     def __init__(self, *args, **kwargs) -> None:
         self.test = 1
@@ -8,7 +8,7 @@ class Something:
             self.test = new_test
 
 
-obj = Something()
+obj = Test()
 print(obj.test)
 
 obj.test = 2
